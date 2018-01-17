@@ -76,8 +76,8 @@ def convert_to_one_hot(Y, numberOfClasses):
     numberOfClasses -- numberOfClasses determines the size of I matrix to create for each label.
     
     Returns:
-    Y -- the one hot version matrix of original Y vector
+    Y -- the one hot version matrix of original Y vector of shape [numberOfLabels, numberOfClasses]
     """
-    Y = np.eye(C)[numberOfClasses.reshape(-1)].T
+    Y = np.eye(numberOfClasses)[Y.reshape(-1)]
     return Y
 

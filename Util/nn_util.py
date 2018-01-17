@@ -78,6 +78,6 @@ def convert_to_one_hot(Y, numberOfClasses):
     Returns:
     Y -- the one hot version matrix of original Y vector
     """
-    Y = np.eye(C)[Y.reshape(-1)].T
+    Y = np.eye(C)[numberOfClasses.reshape(-1)].T
     return Y
 

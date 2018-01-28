@@ -1,5 +1,5 @@
 # MyML Journal
-A ML Newbie's journey. Just heard about ML at second semester of my junior high school year: 
+A ML Newbie's journey. Just heard about ML at second semester of my junior year in high school: 
 1. Did a small project in my AP Stats class, covering Stat and ML. May, 2017.
 2. Finished Andrew Ng's "Machine Learning" course on Coursera. Getting some basics for ML. Nov, 2017.
 3. Taking Andrew's Deeplearning.AI specialization, just finished my first NN implementation using only numpy. Jan 2018.
